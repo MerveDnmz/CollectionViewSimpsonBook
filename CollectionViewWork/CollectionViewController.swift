@@ -9,8 +9,6 @@ import UIKit
 
 class CollectionViewController: UICollectionViewController {
     
-    let dataSource: [String] = ["test1", "test2", "test3", "test4", "test5", "test6"]
-    
     var simpsonList = [Simpson]()
     var chosenSimpson : Simpson?
 
